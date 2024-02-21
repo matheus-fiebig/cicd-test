@@ -17,7 +17,7 @@ public class TestableClassTest
 
         Assert.Equals(sum, 3);
     }
-
+ 
     [Fact]
     public void TestSumWrong()
     {

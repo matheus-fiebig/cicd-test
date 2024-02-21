@@ -16,7 +16,7 @@ jobs:
     - name: Setup
       uses: actions/checkout@v3
       
-    - name: Build dockerfile api-test-1
+    - name: Build dockerfile api-test-1 
       run: docker build -t docker/dotnet-api-test .
       working-directory: docker-api-test 
       
