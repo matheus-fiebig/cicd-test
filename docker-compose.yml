@@ -1,0 +1,19 @@
+version: '1.0.0'
+services:
+  -api-two:
+    build: ./docker-api-test-2
+    ports: 
+      - 5001:5001
+      - 5054:5054
+    environment:
+      ASPNETCORE_ENVIORNMENT: 'Development'
+      ASPNETCORE_URLS: http://+:5054
+
+  -api-one:
+    build: ./docker-api-test
+    ports: 
+      - 5002:5002
+    environment:
+      ASPNETCORE_ENVIORNMENT: 'Production'
+      ASPNETCORE_URLS: http://+:5002
+  
