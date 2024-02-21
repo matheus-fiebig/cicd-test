@@ -29,4 +29,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: api-test-2
-        path: docker-api-test-2/obj/Release/
+        path: docker-api-test-2/
