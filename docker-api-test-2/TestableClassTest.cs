@@ -15,7 +15,7 @@ public class TestableClassTest
 
         var sum = sut.Sum(1, 2);
 
-        Assert.Equals(sum, 3);
+        Assert.Equal(3,sum);
     }
  
     [Fact]
@@ -25,6 +25,6 @@ public class TestableClassTest
 
         var sum = sut.Sum(1, 2);
 
-        Assert.Equals(sum, 99);
+        Assert.Equal(99, sum);
     }
 }

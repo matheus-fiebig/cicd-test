@@ -1,0 +1,8 @@
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.csproj.AssemblyReference.cache
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.AssemblyInfoInputs.cache
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.AssemblyInfo.cs
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.csproj.CoreCompileInputs.cache
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\macru\_source\personal_repos\.net\docker-api-compose\docker-api-test-2\obj\Debug\net8.0\docker-api-test-2.sourcelink.json
