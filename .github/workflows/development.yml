@@ -27,3 +27,10 @@ jobs:
     - name: Test api-2
       run: dotnet test 
       working-directory: docker-api-test-2 
+
+    - name: Build api-2 artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: api-test-2
+        path: docker-api-test-2/
+         working-directory: docker-api-test-2 
