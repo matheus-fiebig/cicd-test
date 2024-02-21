@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-test-2\\docker-api-test-2.csproj": {}
+    "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-compose\\docker-api-test-2\\docker-api-test-2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-test-2\\docker-api-test-2.csproj": {
+    "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-compose\\docker-api-test-2\\docker-api-test-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-test-2\\docker-api-test-2.csproj",
+        "projectUniqueName": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-compose\\docker-api-test-2\\docker-api-test-2.csproj",
         "projectName": "docker-api-test-2",
-        "projectPath": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-test-2\\docker-api-test-2.csproj",
+        "projectPath": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-compose\\docker-api-test-2\\docker-api-test-2.csproj",
         "packagesPath": "C:\\Users\\macru\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-test-2\\obj\\",
+        "outputPath": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-compose\\docker-api-test-2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

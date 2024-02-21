@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6YVymUvqVcvvZVTRKRpKmUDdVTmwkwRVFoOaMAS7EHqb0cr0tUoUNbWGYh8s5yitbRTp3aBK+E7KbmzL5w/zjQ==",
+  "dgSpecHash": "xNvFCGC/Jd8V7+dcd5uTocmqsbuZoF21kM62YHAScrGH6QKSn6QXHHqg5DxBRdckWHCO98iJROJLBCzDKK6wJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-test-2\\docker-api-test-2.csproj",
+  "projectFilePath": "C:\\Users\\macru\\_source\\personal_repos\\.net\\docker-api-compose\\docker-api-test-2\\docker-api-test-2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\macru\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\macru\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
