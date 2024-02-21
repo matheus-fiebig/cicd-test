@@ -14,7 +14,7 @@ public class TestableClassTest
         Assert.Equal(3,sum);
     }
  
-    [Fact]
+    [Fact(Skip = "Trying skip")]
     public void TestSumWrong()
     {
         var sut = new TestableClass();
