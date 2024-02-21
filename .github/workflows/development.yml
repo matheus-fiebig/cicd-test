@@ -25,7 +25,12 @@ jobs:
       run: dotnet test 
       working-directory: docker-api-test-2 
 
-    - name: Upload image
+    - name: Upload image 1
+      uses: ishworkh/docker-image-artifact-upload@v2.0.1
+      with:
+        image: "docker/dotnet-api-test:latest"
+
+    - name: Upload image 2
       uses: ishworkh/docker-image-artifact-upload@v2.0.1
       with:
         image: "docker/dotnet-api-test-2:latest"
