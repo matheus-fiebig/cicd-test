@@ -1,6 +1,3 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
 name: .NET
 
 on:
@@ -32,5 +29,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: api-test-2
-        path: docker-api-test-2/
-        working-directory: docker-api-test-2 
+        path: docker-api-test-2/obj/Release/net8.0
