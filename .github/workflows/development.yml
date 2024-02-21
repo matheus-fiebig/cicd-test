@@ -23,3 +23,7 @@ jobs:
     - name: Build dockerfile api-test-2
       run: docker build -t docker/dotnet-api-test-2 .
       working-directory: docker-api-test-2 
+
+    - name: Test api-2
+      run: dotnet test 
+      working-directory: docker-api-test-2 
