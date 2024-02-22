@@ -11,6 +11,6 @@ WORKDIR /release
 COPY --from=build /release ./
 
 EXPOSE 5001
-ENV ASPNETCORE_URLS = http://:5001
+ENV ASPNETCORE_HTTPS_PORT=5001
 
 ENTRYPOINT [ "dotnet", "docker-api-test.dll" ]
