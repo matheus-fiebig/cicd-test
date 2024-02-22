@@ -11,9 +11,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app-build
 COPY --from=build /app-build ./ 
 
-EXPOSE 5001
-EXPOSE 5003
-EXPOSE 5054
-EXPOSE 8080
+EXPOSE 5002
+ENV ASPNETCORE_URLS = http://*:5002
 
 ENTRYPOINT [ "dotnet", "docker-api-test-2.dll" ]
