@@ -6,7 +6,7 @@ services:
       - 5002:5002
     environment:
       ASPNETCORE_ENVIORNMENT: 'Development'
-      ASPNETCORE_URLS: http://+:5052
+      ASPNETCORE_URLS: http://+:5002
 
   -api-one:
     build: ./docker-api-test
