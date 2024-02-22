@@ -43,7 +43,7 @@ jobs:
     
     steps:
       - name: Downlowad docker image
-        uses: ishworkh/container-image-artifact-download@v2.0.1
+        uses: ishworkh/container-image-artifact-download@v1.0.0
         with:
           image: "docker/dotnet-api-test-2:latest"
 
