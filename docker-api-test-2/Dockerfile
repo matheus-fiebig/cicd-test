@@ -12,6 +12,6 @@ WORKDIR /app-build
 COPY --from=build /app-build ./ 
 
 EXPOSE 5002
-ENV ASPNETCORE_URLS = http://*:5002
+ENV ASPNETCORE_URLS = http://:5002
 
 ENTRYPOINT [ "dotnet", "docker-api-test-2.dll" ]
