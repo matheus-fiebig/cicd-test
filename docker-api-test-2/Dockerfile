@@ -14,5 +14,6 @@ COPY --from=build /app-build ./
 EXPOSE 5001
 EXPOSE 5003
 EXPOSE 5054
+EXPOSE 8080
 
 ENTRYPOINT [ "dotnet", "docker-api-test-2.dll" ]
