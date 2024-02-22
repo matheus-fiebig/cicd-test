@@ -3,6 +3,7 @@ name: .NET
 on:
   push:
     branches: [ "develop" ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -36,6 +37,7 @@ jobs:
   
   deploy:
     needs: build
+    environment: dev
     runs-on: 
       - self-hosted
     
