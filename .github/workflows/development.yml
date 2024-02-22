@@ -35,6 +35,7 @@ jobs:
         image: "docker/dotnet-api-test-2:latest"
   
   deploy:
+    needs: build
     runs-on: 
       - self-hosted
     
