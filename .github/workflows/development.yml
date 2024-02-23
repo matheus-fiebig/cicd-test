@@ -7,7 +7,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: 
+      - self-hosted
 
     steps:
     - name: Setup
@@ -34,13 +35,19 @@ jobs:
       - self-hosted
     
     steps:
-      - name: Downlowad docker image
+      - name: Download docker image
         uses: ishworkh/container-image-artifact-download@v1.0.0
         with:
           image: "docker/dotnet-api-test-2:latest"
 
+      - name: Stop and clean old containers
+        run: docker ps -q --filter "name=docker/dotnet-api-test-2" | grep -q . && docker stop docker/dotnet-api-test-2 && docker rm -fv docker/dotnet-api-test-2
+
+      - name: Cleanup old images
+        run: docker rmi `docker images | grep "<none>" | awk {'print $3'}`
+
       - name: Secret echo
-        run: mkdir  ${{ secrets.super_secret_test }}
+        run: echo  ${{ secrets.super_secret_test }}
 
       - name: Run container
         run: docker run -d -p 5002:5002 docker/dotnet-api-test-2:latest
