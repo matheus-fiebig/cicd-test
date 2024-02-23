@@ -35,7 +35,7 @@ jobs:
       with:
         image: "docker/dotnet-api-test-2:latest"
   
-  deploy:
+  deploy: 
     needs: build
     environment: dev
     runs-on: 
