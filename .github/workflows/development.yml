@@ -42,13 +42,13 @@ jobs:
       - self-hosted
     
     steps:
-      - name: Stop running containers
-        run: (docker image ls  | grep 'docker/dotnet-api-test-2') && 
-            docker rm -f docker/dotnet-api-test-2 || true
+      # - name: Stop running containers
+      #   run: (docker image ls  | grep 'docker/dotnet-api-test-2') && 
+      #       docker rm -f docker/dotnet-api-test-2 || true
 
-      - name: Cleanup docker images
-        run: (docker image ls  | grep 'docker/dotnet-api-test-2') && 
-            docker image rm docker/dotnet-api-test-2 || true
+      # - name: Cleanup docker images
+      #   run: (docker image ls  | grep 'docker/dotnet-api-test-2') && 
+      #       docker image rm docker/dotnet-api-test-2 || true
 
       - name: Download docker image
         uses: ishworkh/container-image-artifact-download@v1.0.0
