@@ -43,10 +43,10 @@ jobs:
     
     steps:
       - name: Stop running containers
-        run: docker rm -f docker/dotnet-api-test-2:latest
+        run: (docker image ls  | grep 'docker/dotnet-api-test-2') && docker rm -f docker/dotnet-api-test-2
 
       - name: Cleanup docker images
-        run: docker image rm docker/dotnet-api-test-2:latest 
+        run: (docker image ls  | grep 'docker/dotnet-api-test-2') && docker image rm docker/dotnet-api-test-2 
 
       - name: Download docker image
         uses: ishworkh/container-image-artifact-download@v1.0.0
