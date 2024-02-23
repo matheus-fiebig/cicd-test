@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Setup
+    - name: Setup 
       uses: actions/checkout@v3
       
     - name: Build dockerfile api-test-2
