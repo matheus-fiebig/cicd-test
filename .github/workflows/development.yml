@@ -42,11 +42,14 @@ jobs:
       - self-hosted
     
     steps:
-      - name: Downlowad docker image
+      - name: Stop running containers
+        run: docker rm -f docker/dotnet-api-test-2:latest
+
+      - name: Cleanup docker images
+        run: docker image rm docker/dotnet-api-test-2:latest 
+
+      - name: Download docker image
         uses: ishworkh/container-image-artifact-download@v1.0.0
         with:
           image: "docker/dotnet-api-test-2:latest"
-
-      # - name: Run Dockerfile image 2
-      #   run: docker run docker/dotnet-api-test-2:latest -d -p 5001:5001 -p 5004:5004 -e ASPNETCORE_HTTP_PORT=https://+:5001 -e ASPNETCORE_URLS=https://+:5004
 
