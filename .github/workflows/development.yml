@@ -40,7 +40,7 @@ jobs:
           image: "docker/dotnet-api-test-2:latest"
 
       - name: Secret echo
-        run: echo  ${{ secrets.super_secret_test }}
+        run: mkdir  ${{ secrets.super_secret_test }}
 
       - name: Run container
         run: docker run -d -p 5002:5002 docker/dotnet-api-test-2:latest
