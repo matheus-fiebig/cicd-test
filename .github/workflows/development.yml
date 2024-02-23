@@ -36,12 +36,6 @@ jobs:
       - name: Checkout 
         uses: actions/checkout@v3
 
-      - name: Debug 1
-        run: ls -la
-
-      - name: Debug 2
-        run: cat /scripts-runner/devdeploy.sh
-
       - name: Download docker image
         uses: ishworkh/container-image-artifact-download@v1.0.0
         with:
